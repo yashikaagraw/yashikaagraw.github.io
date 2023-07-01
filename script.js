@@ -84,7 +84,7 @@ resumeLink.addEventListener("click", function (event) {
   );
   let link = document.createElement("a");
   link.href =
-    "https://drive.google.com/u/0/uc?id=11J8o3BDozE0QKCrvFbteWAAF-ddWXZG6&export=download";
+    "https://drive.google.com/file/d/12hj1nCQ4TxgU5jRiNtuWZaZHZUXiC5YW/view?usp=sharing";
   link.download = "Yashika-Agrawal-Resume";
   link.click();
 });
