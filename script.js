@@ -70,7 +70,7 @@ resumeLink.addEventListener("click", function (event) {
   );
   let link = document.createElement("a");
   link.href =
-    "https://drive.google.com/file/d/12hj1nCQ4TxgU5jRiNtuWZaZHZUXiC5YW/view?usp=sharing";
+    "/My resume(1).pdf";
   link.download = "Yashika-Agrawal-Resume";
   link.click();
 });
@@ -84,7 +84,7 @@ resumeLink.addEventListener("click", function (event) {
   );
   let link = document.createElement("a");
   link.href =
-    "https://drive.google.com/file/d/12hj1nCQ4TxgU5jRiNtuWZaZHZUXiC5YW/view?usp=sharing";
+    "/My resume(1).pdf";
   link.download = "Yashika-Agrawal-Resume";
   link.click();
 });
