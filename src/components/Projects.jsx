@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../images/bluefly.png";
 import project2 from "../images/flipkart.png";
 import project3 from "../images/Online-medical-store.jpeg";
+import project4 from "../images/Portfolio-img.jpeg"
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
@@ -27,6 +28,12 @@ const Projects = () => {
       github_link: "https://github.com/yashikaagraw/Telemedicine-clone",
       live_link: "https://telemedicine-mu.vercel.app/",
     },
+    {
+      img: project4,
+      name: "My Portfolio",
+      github_link: "https://github.com/yashikaagraw/yashikaagraw.github.io",
+      live_link: "yashikaagraw.github.io",
+    },
   ];
   return (
     <section id="projects" className="py-10 text-white">
@@ -44,7 +51,7 @@ const Projects = () => {
             spaceBetween={20}
             breakpoints={{
               768: {
-                slidesPerView: 3,
+                slidesPerView: 4,
               },
             }}
             loop={false}
