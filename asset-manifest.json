@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.9204fa82.css",
-    "main.js": "/static/js/main.92d30c26.js",
+    "main.css": "/static/css/main.968457ae.css",
+    "main.js": "/static/js/main.9b671261.js",
     "static/media/bluefly.png": "/static/media/bluefly.8d1209e3689bf869a573.png",
     "static/media/flipkart.png": "/static/media/flipkart.9537094c4b5ff208932a.png",
     "static/media/Online-medical-store.jpeg": "/static/media/Online-medical-store.dea2fe38920efb43d811.jpeg",
     "static/media/Portfolio-img.jpeg": "/static/media/Portfolio-img.273af106dad6a352abc1.jpeg",
     "static/media/Yashika-Profile-photo.jpeg": "/static/media/Yashika-Profile-photo.e0203628355b8933aba6.jpeg",
     "index.html": "/index.html",
-    "main.9204fa82.css.map": "/static/css/main.9204fa82.css.map",
-    "main.92d30c26.js.map": "/static/js/main.92d30c26.js.map"
+    "main.968457ae.css.map": "/static/css/main.968457ae.css.map",
+    "main.9b671261.js.map": "/static/js/main.9b671261.js.map"
   },
   "entrypoints": [
-    "static/css/main.9204fa82.css",
-    "static/js/main.92d30c26.js"
+    "static/css/main.968457ae.css",
+    "static/js/main.9b671261.js"
   ]
 }
