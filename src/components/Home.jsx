@@ -9,12 +9,12 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen md:mt-4 flex py-10 md:flex-row flex-col items-center"
+      className=" md:mt-4 flex py-5 md:flex-row flex-col items-center"
     >
-      <div className="flex-1 flex items-center justify-center h-100 ">
-        <img src={photo} alt="" className="home-img rounded-full md:w-10/12 object-cover w-1/2 mt-10" />
+      <div className="flex items-center justify-center">
+        <img src={photo} alt="" className="rounded-full  w-2/5 flex gap-5 mt-10" />
       </div>
-      <div className="flex-1">
+      <div className="">
         <div className="md:text-left text-center">
           <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 text-white font-bold">
             <span className="text-cyan-600 md:text-6xl text-5xl">
@@ -32,7 +32,7 @@ const Home = () => {
 
               onInit={(typewriter) => {
                 typewriter
-                  .typeString("I am a MERN Stack Developer.")
+                  .typeString("MERN Stack Developer")
                   .pause(2000)
                   .deleteAll()
                    .start();
@@ -40,7 +40,7 @@ const Home = () => {
             />
           </div>
 
-          <a href="#contact"><button className="btn-primary mt-8">Contact Me</button></a>
+          <a href="#contact"><button className="btn-primary mt-5">Contact Me</button></a>
           <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
             {social_media?.map((icon) => (
               <div

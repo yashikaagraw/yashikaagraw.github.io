@@ -22,10 +22,11 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <p id="user-detail-intro" className="text-justify leading-7 w-11/12 mx-auto">
-              I'm an aspiring web developer with a strong passion. Equipped with a
-              good foundation in HTML, CSS, JavaScript, React.js, Redux, MongoDB,
-              Express.js, Node.js. I am dedicated to expanding my skills and staying
-              updated with the latest web development technologies.              </p>
+              As an aspiring web developer with a strong passion
+              and a solid foundation in HTML, CSS, JavaScript,
+              React.js, Redux, MongoDB, Express.js, and Node.js,
+              my commitment to expanding my skills and staying up-to-date
+              with the latest web development technologies is unwavering            </p>
               <Link id="resume-link-1" 
                 target="_blank"
                 rel="noreferrer"

@@ -15,24 +15,31 @@ const Projects = () => {
       name: "Bluefly.com",
       github_link: "https://github.com/Mzsalmani02/bluefly_clone",
       live_link: "https://jocular-moonbeam-a47e5c.netlify.app//",
+      about:'Your one-stop online fashion and lifestyle destination, offering a seamless shopping experience and a diverse range of products for the style-conscious shopper.'
     },
     {
       img: project2,
       name: "Flipkart.com",
       github_link: "https://github.com/Abidkhan263187/Project-FlipKart-Website-Clone",
       live_link: "https://flipkartclone-black.vercel.app/index.html",
+      about:'Indias Leading Online Shopping Destination. Shop from the comfort of your home with Flipkarts user-friendly interface'
+
     },
     {
       img: project3,
       name: "Online Medical Store",
       github_link: "https://github.com/yashikaagraw/Telemedicine-clone",
       live_link: "https://telemedicine-mu.vercel.app/",
+      about:'Online Medical Store.com It is a Online Pharmacy, ayurvedic store and Health Store.'
+
     },
     {
       img: project4,
       name: "My Portfolio",
       github_link: "https://github.com/yashikaagraw/yashikaagraw.github.io",
       live_link: "yashikaagraw.github.io",
+      about:'A showcase of my skills and achievements, my portfolio provides a glimpse into my professional journey. Explore my work and experience in a concise and visually appealing format'
+
     },
   ];
   return (
@@ -45,7 +52,7 @@ const Projects = () => {
       </div>
       <br />
       <div className="flex max-w-6xl gap-6 px-5 mx-auto items-center relative">
-        <div className="lg:w-2/3 w-full">
+        <div className="w-full">
           <Swiper
             slidesPerview={1.2}
             spaceBetween={20}
@@ -68,7 +75,7 @@ const Projects = () => {
                 <div className="project-card h-fit w-full p-4 bg-slate-700 rounded-xl">
                   <img src={project_info.img} alt="" className="rounded-lg" />
                   <h3 className="project-title text-xl my-4">{project_info.name}</h3>
-                  <p className="project-description">This is a good Project</p>
+                  <p className="project-description">{project_info.about}</p>
                   <p className="project-tech-stack">
                     <span className="text-orange-400">Tech Stack: </span>HTML, CSS, JS, ReactJS
                   </p>
