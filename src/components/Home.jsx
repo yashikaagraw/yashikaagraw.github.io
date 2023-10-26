@@ -11,8 +11,8 @@ const Home = () => {
       id="home"
       className="min-h-screen md:mt-4 flex py-10 md:flex-row flex-col items-center"
     >
-      <div className="flex-1 flex items-center justify-center h-100">
-        <img src={photo} alt="" className="home-img rounded-full md:w-10/12 object-cover" />
+      <div className="flex-1 flex items-center justify-center h-100 ">
+        <img src={photo} alt="" className="home-img rounded-full md:w-10/12 object-cover w-1/2 mt-10" />
       </div>
       <div className="flex-1">
         <div className="md:text-left text-center">

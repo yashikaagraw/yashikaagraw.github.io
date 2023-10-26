@@ -34,7 +34,7 @@ const Navbar = () => {
     >
       <div className="flex items-center justify-between">
         <div className="mx-7">
-          <h4 className="text-4xl uppercase font-bold">
+          <h4 className="text-4xl uppercase font-bold text-lg">
             Yashika Agrawal<span className="text-cyan-600"></span>
           </h4>
         </div>
