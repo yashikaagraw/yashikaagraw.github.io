@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.97d9a363.css",
-    "main.js": "/static/js/main.01d5dbf3.js",
+    "main.js": "/static/js/main.4ca830f9.js",
     "static/media/bluefly.png": "/static/media/bluefly.8d1209e3689bf869a573.png",
     "static/media/flipkart.png": "/static/media/flipkart.9537094c4b5ff208932a.png",
     "static/media/Online-medical-store.jpeg": "/static/media/Online-medical-store.dea2fe38920efb43d811.jpeg",
@@ -9,10 +9,10 @@
     "static/media/Yashika-Profile-photo.jpeg": "/static/media/Yashika-Profile-photo.e0203628355b8933aba6.jpeg",
     "index.html": "/index.html",
     "main.97d9a363.css.map": "/static/css/main.97d9a363.css.map",
-    "main.01d5dbf3.js.map": "/static/js/main.01d5dbf3.js.map"
+    "main.4ca830f9.js.map": "/static/js/main.4ca830f9.js.map"
   },
   "entrypoints": [
     "static/css/main.97d9a363.css",
-    "static/js/main.01d5dbf3.js"
+    "static/js/main.4ca830f9.js"
   ]
 }
